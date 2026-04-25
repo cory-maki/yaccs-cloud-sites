@@ -7,31 +7,31 @@
     <priority>1.0</priority>
   </url>
   <url>
-    <loc>https://corymaki.com/about.html</loc>
+    <loc>https://corymaki.com/about</loc>
     <lastmod>2026-04-25</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://corymaki.com/contact.html</loc>
+    <loc>https://corymaki.com/contact</loc>
     <lastmod>2026-04-25</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://corymaki.com/posts/article-one.html</loc>
+    <loc>https://corymaki.com/what-is-geo</loc>
     <lastmod>2026-04-03</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://corymaki.com/posts/article-two.html</loc>
+    <loc>https://corymaki.com/reddit-dominates-ai-search-citations</loc>
     <lastmod>2026-04-03</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.7</priority>
   </url>
   <url>
-    <loc>https://corymaki.com/posts/article-three.html</loc>
+    <loc>https://corymaki.com/geo-just-seo-debate</loc>
     <lastmod>2026-04-04</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.7</priority>
