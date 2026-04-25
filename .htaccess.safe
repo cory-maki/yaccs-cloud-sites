@@ -1,0 +1,15 @@
+# Allow extensionless URLs: /about serves about.html, /smart-city-illusion serves smart-city-illusion.html
+# Modern static hosts (Netlify, Vercel, Cloudflare Pages, GitHub Pages) do this automatically.
+# This file is only needed on Apache-based shared hosting.
+
+RewriteEngine On
+
+# If the request is not a real file or directory, and adding .html makes it a real file, serve that
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{REQUEST_FILENAME}.html -f
+RewriteRule ^(.+)$ $1.html [L]
+
+# Optional: redirect requests that include .html back to the clean URL (avoids duplicate-content issues)
+RewriteCond %{THE_REQUEST} \s/+(.+?)\.html[\s?] [NC]
+RewriteRule ^ /%1 [R=301,L]
